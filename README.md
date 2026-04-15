@@ -18,16 +18,15 @@ User Input → LLM (Groq LLaMA 3) → Action Steps → Playwright → Flask Admi
 - Flask
 - Playwright
 - Groq (LLaMA 3)
+- Replit (Deployment)
 
-## ▶️ Run Locally
+## ▶️ Run Locally 
 
 ```bash
 pip install flask playwright groq
 python -m playwright install
+
 python app.py
 python agent.py
 
-
-## Deployment
-I've deployed this on Replit :
 https://ai-it-support-agent--shravanij941.replit.app
